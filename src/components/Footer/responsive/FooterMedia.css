@@ -1,0 +1,150 @@
+@media screen and (min-width:320px) and (max-width:767px) 
+{
+    #Footer
+    {
+
+    }
+    #Footer .container
+    {
+
+    }
+    #Footer .container #Footer-main
+    {
+
+    }
+    #Footer .container #Footer-main #Footer-sCard
+    {
+        width: 30%;
+    }
+    #Footer .container #Footer-main #Footer-sCard h1
+    {
+        font-size: 1.5rem;
+        
+    }
+    #Footer .container #Footer-main #Footer-sCard p , ul li a
+    {
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub 
+    {
+        width: 140px;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub input
+    {
+        color: white;
+        margin: 0 auto;
+        width: 120px
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button
+    {
+        font-size: 0.4rem;
+        margin: 20px auto;
+        width: 80px;
+        height: 30px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) 
+{
+    #Footer
+    {
+
+    }
+    #Footer .container
+    {
+
+    }
+    #Footer .container #Footer-main
+    {
+
+    }
+    #Footer .container #Footer-main #Footer-sCard
+    {
+        width: 30%;
+    }
+    #Footer .container #Footer-main #Footer-sCard h1
+    {
+        font-size: 1.8rem;
+        
+    }
+    #Footer .container #Footer-main #Footer-sCard p , ul li a
+    {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub 
+    {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub input
+    {
+        font-size: 0.8rem;
+        color: white;
+        width: 200px
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button
+    {
+        font-size: 0.6rem;
+        margin: 20px auto;
+        width: 150px;
+        height: 40px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1660px) 
+{
+    #Footer
+    {
+
+    }
+    #Footer .container
+    {
+
+    }
+    #Footer .container #Footer-main
+    {
+
+    }
+    #Footer .container #Footer-main #Footer-sCard
+    {
+        width: 30%;
+    }
+    #Footer .container #Footer-main #Footer-sCard h1
+    {
+        font-size: 1.8rem;
+        
+    }
+    #Footer .container #Footer-main #Footer-sCard p , ul li a
+    {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub 
+    {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub input
+    {
+        font-size: 0.8rem;
+        color: white;
+        width: 200px
+    }
+    #Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button
+    {
+        font-size: 0.6rem;
+        margin: 20px auto;
+        width: 150px;
+        height: 40px;
+    }
+}

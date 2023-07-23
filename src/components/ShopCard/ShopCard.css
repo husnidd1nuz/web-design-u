@@ -1,0 +1,153 @@
+#ShopCard
+{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    background-color: #18222d;
+}
+#ShopCard .container
+{
+    padding: 40px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+#ShopCard .container hr
+{
+    margin: 30px 0px;
+    border: 1px solid rgba(45, 186, 233, 0.4);
+    width: 350px;
+}
+#ShopCard .container #ShopCard-top
+{   
+    width: 97.2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ShopCard .container #ShopCard-top h3
+{
+    font-size: 1.6rem;
+    color: rgba(45, 186, 233, 0.891);
+}
+#ShopCard .container #ShopCard-top i
+{
+    font-weight: 400;
+    margin-left: 20px;
+    color: rgba(45, 186, 233, 0.647);
+    font-size: 2rem;
+}
+#ShopCard .container #ShopCard-top i:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.891);
+    text-shadow: 0 0 15px rgba(45, 186, 233, 0.4);
+}
+#ShopCard .container #ShopCard-main
+{
+    width: 100%;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox
+{
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox img
+{
+    border-radius: 10px;
+    width: 120px;
+    height: 120px
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox img:hover
+{
+    transform: scale(0.97);
+    cursor: pointer;
+    transition: 0.7s;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox #ShopCard-main-title
+{
+    width: 250px;
+    font-size: 1.2rem;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox #ShopCard-main-title h3
+{
+    font-weight: 400;
+    color: rgba(45, 186, 233, 0.647);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox #ShopCard-main-title p
+{
+    font-weight: 400;
+    color: white;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox #ShopCard-main-title p span
+{
+    color: rgba(45, 186, 233, 0.4);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox i
+{
+    font-weight: 400;
+    margin-left: 20px;
+    color: rgba(45, 186, 233, 0.647);
+    font-size: 2rem;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-sBox i:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.891);
+    text-shadow: 0 0 15px rgba(45, 186, 233, 0.4);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-price
+{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-price h3
+{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(45, 186, 233, 0.4);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-price p
+{
+    color: rgba(45, 186, 233, 0.891);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-bottom
+{
+    margin: 20px auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-bottom button
+{
+    width: 180px;
+    height: 60px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-bottom button:hover
+{
+    transition: 0.7s;
+    background: transparent;
+    border: 2px solid rgba(45, 186, 233, 0.4);
+}
+#ShopCard .container #ShopCard-main #ShopCard-main-bottom button:focus
+{
+    background: transparent;
+}

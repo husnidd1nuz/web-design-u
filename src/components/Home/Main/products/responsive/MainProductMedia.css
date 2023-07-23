@@ -1,0 +1,81 @@
+@media screen and (min-width:320px) and (max-width:767px){
+    #MainProducts
+    {
+
+    }
+    #MainProducts .container
+    {
+
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        margin: 40px auto;
+        width: 45%;
+        height: 50%;
+        padding-bottom: 30px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    #MainProducts
+    {
+
+    }
+    #MainProducts .container
+    {
+
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        margin: 20px auto;
+        width: 40%;
+        height: 50%;
+        padding-bottom: 30px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width:1024px) and (max-width:1669px){
+    #MainProducts
+    {
+
+    }
+    #MainProducts .container
+    {
+
+    }
+    #MainProducts .container #MainProducts-card
+    {
+        width: 100%;
+        display: flex;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox
+    {
+        margin: 20px auto;
+        width: 21%;
+        height: 50%;
+        padding-bottom: 30px;
+    }
+    #MainProducts .container #MainProducts-card #MainProducts-sBox img
+    {
+        width: 100%;
+    }
+
+}

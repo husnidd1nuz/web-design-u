@@ -1,0 +1,308 @@
+#Blog
+{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+#Blog #Blog-bg
+{
+    background: url("https://images.alphacoders.com/903/903155.jpg");
+    z-index: 0;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+#Blog #Blog-title
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;   
+    text-align: center;   
+    margin-top: -270px;
+}
+#Blog #Blog-title h1
+{
+    font-size: 3rem;
+    color: rgba(51, 171, 211, 0.843) ;
+}
+#Blog #Blog-title h3
+{
+    font-size: 1.4rem;
+    color: rgba(51, 171, 211, 0.843) ;
+    font-weight: 400;    
+}
+#Blog #Blog-main
+{
+    padding-top: 100px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* ? BLOG MAIN lCARD START */
+#Blog #Blog-main-lCard
+{
+    width: 70%;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard
+{
+    width: 100%;   
+    text-align: center;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard img
+{
+    width: 90%;
+    border-radius: 20px;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard #Blog-main-bottom-sCard
+{
+    width: 90%;
+    gap: 40px;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard #Blog-main-bottom-sCard #Blog-main-bottom-miniCard
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard #Blog-main-bottom-sCard #Blog-main-bottom-miniCard i
+{
+    color: rgba(51, 171, 211, 0.843);
+    font-size: 1.4rem;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard #Blog-main-bottom-sCard #Blog-main-bottom-miniCard p
+{
+    font-size: 1.1rem;
+    color: rgba(45, 186, 233, 0.4);
+}
+#Blog #Blog-main-lCard #Blog-main-sCard-title
+{
+    width: 90%;
+    margin: 10px auto;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard-title h1
+{
+    color: rgba(51, 171, 211, 0.843);
+    font-weight: 600;
+}
+#Blog #Blog-main-lCard #Blog-main-sCard-title p
+{
+    color: rgba(45, 186, 233, 0.4);
+}
+#Blog #Blog-main-lCard #Blog-main-sCard-title button
+{
+    margin: 20px  0px;
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: white; 
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    width: 180px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 60px;  
+}
+#Blog #Blog-main-lCard #Blog-main-sCard-title button:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+
+    transition: 0.7s ;
+}
+/* ? BLOG MAIN lCARD END */
+
+/* * to continue... */
+
+/* ? BLOG MAIN rCARD START */
+#Blog #Blog-main #Blog-main-rCard
+{
+    width: 30%;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top input
+{
+    width: 90%;
+    height: 60px;
+    font-size: 1rem;
+    color: rgba(45, 186, 233, 0.843);
+    background: transparent;
+    border: 2px solid rgba(45, 186, 233, 0.843);
+    padding: 5px 0px 5px 30px;
+    border-radius: 50px;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top input:focus
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    border: 2px solid rgba(45, 186, 233, 0.843);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    transition: 0.7s ;   
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top h3
+{
+    color: rgba(45, 186, 233, 0.843);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 20px 0px 10px 20px; 
+    text-align: start;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top #Blog-main-rCard-top-sCard
+{
+    border: 2px solid rgba(45, 186, 233, 0.843);
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: space-between;
+    margin: 20px auto;
+    text-align: start;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top #Blog-main-rCard-top-sCard h5
+{
+    color: rgba(45, 186, 233, 0.843);
+    font-weight: 400;
+    font-size: 1rem;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-top #Blog-main-rCard-top-sCard p
+{
+    color: rgba(45, 186, 233, 0.4);
+    font-size: 1rem;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom 
+{
+    width: 90%;
+    margin: 0 auto;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom > h3
+{
+    color: rgba(45, 186, 233, 0.843);
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 20px 0px 10px 25px; 
+    text-align: start; 
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard
+{
+    margin: 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid rgba(45, 186, 233, 0.843);
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard img
+{
+    width: 120px;
+    border-radius: 10px;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox
+{
+    width: 60%;
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox h3
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(45, 186, 233, 0.843);
+}
+#Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox p
+{
+    color: rgba(45, 186, 233, 0.3);
+    font-size: 0.9rem;
+}
+/* ? BLOG MAIN rCARD END */
+#Blog #Blog-footer
+{
+    width: 100%;
+}
+#Blog #Blog-footer #Blog-footer-sCard
+{
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-sBtn
+{
+    width: 100px;
+    height: 60px;
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: white;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    font-size: 1.1rem;
+}
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-sBtn:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+
+    transition: 0.7s ;    
+}
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-sBtn:focus
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    transition: 0.7s ;    
+}
+
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-btn
+{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: white;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    font-size: 1.1rem; 
+}
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-btn:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    transition: 0.7s ;    
+}
+#Blog #Blog-footer #Blog-footer-sCard #Blog-footer-btn:focus
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    transition: 0.7s ;    
+}

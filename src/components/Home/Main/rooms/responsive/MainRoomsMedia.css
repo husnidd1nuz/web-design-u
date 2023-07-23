@@ -1,0 +1,62 @@
+@media screen and (min-width:320px) and (max-width: 767px) {
+    #HomeRoom
+    {
+        
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox h1
+    {
+        font-size: 2.2rem;
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox p 
+    {
+        font-size: 0.9rem;
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox button
+    {
+        width: 300px;
+    }
+    .grid 
+    {
+        margin-top: -150px;
+    }
+    .grid-block 
+    {
+        width: 50%; 
+    }
+    .image-grid .tile-img
+    {
+        width: 350px;
+        height: 200px;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    #HomeRoom
+    {
+        
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox h1
+    {
+        font-size: 2.4rem;
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox p 
+    {
+        font-size: 1rem;
+    }
+    #HomeRoom #HomeRooms-Main #Rooms-lBox button
+    {
+        width: 400px;
+    }
+    .grid 
+    {
+        margin-top: -260px;
+    }
+    .grid-block 
+    {
+        width: 50%; 
+    }
+    .image-grid .tile-img
+    {
+        width: 350px;
+        height: 250px;
+    }
+}

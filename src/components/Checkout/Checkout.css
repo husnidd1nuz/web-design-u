@@ -1,0 +1,201 @@
+#Checkout
+{
+    position: relative;
+    display: none;
+    width: 100%;
+}
+#Checkout #Checkout-bg
+{
+    background: url("https://images.alphacoders.com/903/903155.jpg");
+    z-index: 0;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+#Checkout #Checkout-title
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;   
+    text-align: center;   
+    margin-top: -270px;
+}
+#Checkout #Checkout-title h1
+{
+    font-size: 3rem;
+    color: rgba(51, 171, 211, 0.843) ;
+}
+#Checkout #Checkout-title h3
+{
+    font-size: 1.4rem;
+    color: rgba(51, 171, 211, 0.843) ;
+    font-weight: 400;    
+}
+#Checkout #Checkout-main
+{
+    padding: 100px 0px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* * Checkout-main lBox START */
+#Checkout #Checkout-main #Checkout-main-lBox
+{
+    width: 45%;
+}
+#Checkout #Checkout-main #Checkout-main-lBox h1
+{
+    font-size: 2.2rem;
+    color: rgba(51, 171, 211, 0.843);
+}
+#Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox
+{
+    gap: 40px;
+    display: flex;
+    width: 70%;
+}
+#Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox #Checkout-main-miniBoxs
+{
+    width: 50%;
+}
+#Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox #Checkout-main-miniBoxs p
+{
+    color: white;
+    margin: 10px 5px;
+}
+#Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox #Checkout-main-miniBoxs input
+{
+    width: 100%;
+    color: rgba(51, 171, 211, 0.843);
+    background: transparent;
+    border: 2px solid rgba(51, 171, 211, 0.843);
+    padding: 5px 0px 5px 30px;
+    height: 40px;
+    border-radius: 20px;
+}
+#Checkout #Checkout-main #Checkout-main-lBox p
+{
+    color: white;
+    margin: 10px 0px 0px 5px;
+}
+#Checkout #Checkout-main #Checkout-main-lBox input
+{
+    margin: 10px 0px;
+    width: 70%;
+    color: rgba(51, 171, 211, 0.843);
+    background: transparent;
+    border: 2px solid rgba(51, 171, 211, 0.843);
+    padding: 5px 0px 5px 30px;
+    height: 50px;
+    border-radius: 50px;
+}
+/* * Checkout-main lBox END */
+
+
+/* * Checkout-main rBox START */
+#Checkout #Checkout-main #Checkout-main-rBox
+{
+    width: 45%;
+    padding-top: 50px;
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox
+{
+    width: 90%;    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h2
+{
+    color: rgba(51, 171, 211, 0.843);
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h3
+{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 400;
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h4
+{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.606);
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h5
+{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox span
+{
+    color: white;
+}
+#Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox p
+{
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+#Checkout #Checkout-main #Checkout-main-rBox hr
+{
+    margin: 30px 0px;
+    width: 100%;
+    border: 1px solid rgba(51, 171, 211, 0.423);
+}
+#Checkout #Checkout-main #Checkout-main-rBox > h3
+{
+    color: rgba(51, 171, 211, 0.843);
+}
+#Checkout #Checkout-main #Checkout-main-rBox p
+{
+    margin: 15px 0px;
+    font-weight: normal;
+    color: rgba(45, 186, 233, 0.4);
+}
+#Checkout #Checkout-main #Checkout-main-rBox ul ul li
+{
+    margin: 15px 0px;
+    margin-left: 15px;
+    color: white;
+}
+#Checkout #Checkout-main #Checkout-main-rBox h5
+{
+    font-size: 1rem;
+    margin: 15px 0px;
+    color: rgba(45, 186, 233, 0.4);
+}
+#Checkout #Checkout-main #Checkout-main-rBox h5 span
+{
+    color: black;
+}
+#Checkout #Checkout-main #Checkout-main-rBox button
+{
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background: transparent;
+    cursor: pointer;
+    color: #257A9A;
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    transform: scale(0.93); 
+}
+#Checkout #Checkout-main #Checkout-main-rBox button:hover
+{
+    transition: 0.7s;
+    color: rgba(45, 186, 233, 0.843);
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+}
+#Checkout #Checkout-main #Checkout-main-rBox button:focus
+{
+    color: rgba(45, 186, 233, 0.843);
+    background-color: rgba(45, 186, 233, 0.3);
+}
+/* * Checkout-main rBox END */

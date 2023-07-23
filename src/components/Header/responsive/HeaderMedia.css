@@ -1,0 +1,106 @@
+@media screen and (min-width:320px) and (max-width: 767px) {
+    #Header
+    {
+        width: 100%;
+    }
+    #Header .container
+    {
+        width: 95%;
+        padding: 15px 0px;
+        align-items: center;
+    }
+    #Header .container #Header-logo img
+    {
+        width: 35px;
+        height: 22px;
+    }
+    #Header .container #Header-logo h1
+    {
+        font-size: 1.4rem;
+    }
+    #Header .container ul 
+    {
+        width: 45%;
+    }
+    #Header .container ul button
+    {
+        width: 60px;
+        height: 30px;
+    }
+    #Header .container ul button li a
+    {
+        font-size: 12px;
+
+    }
+    
+    #Header .container #Header-navigation
+    {
+        display: none;
+        width: 180px;
+    }
+    #Header .container #Header-navigation i
+    {
+        margin-left: 20px;
+        font-size: 1.1rem;
+    }
+    #Header .container .fa-burger
+    {   
+        display: block;
+        color: rgba(45, 186, 233, 0.4);
+    }
+
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+    #Header
+    {
+        width: 100%;
+    }
+    #Header .container
+    {
+        width: 95%;
+        padding: 15px 0px;
+        align-items: center;
+    }
+    #Header .container #Header-logo img
+    {
+        width: 40px;
+        height: 25px;
+    }
+    #Header .container #Header-logo h1
+    {
+        font-size: 1.5rem;
+    }
+    #Header .container ul 
+    {
+        width: 45%;
+    }
+    #Header .container ul button
+    {
+        width: 80px;
+        height: 30px;
+    }
+    #Header .container ul button li a
+    {
+        font-size: 1rem;
+    }
+    
+    #Header .container #Header-navigation
+    {
+        display: none;
+        width: 180px;
+    }
+    #Header .container #Header-navigation i
+    {
+        cursor: pointer;
+        margin-left: 20px;
+        font-size: 1.1rem;
+    }
+    #Header .container .fa-burger
+    {   
+        cursor: pointer;
+        font-size: 1.2rem;
+        display: block;
+        color: rgba(45, 186, 233, 0.4);
+    }
+
+}

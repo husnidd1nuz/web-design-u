@@ -1,0 +1,96 @@
+#Footer
+{
+    border: 1px solid  rgba(45, 186, 233, 0.3);
+    width: 100%;
+}
+#Footer .container
+{
+    padding: 40px 0px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+#Footer .container #Footer-main
+{
+    width: 100%;
+    display: flex;
+}
+#Footer .container #Footer-main #Footer-sCard
+{
+    width: 25%;
+    align-items: start;
+}
+#Footer .container #Footer-main #Footer-sCard h1
+{
+    color: rgb(29, 179, 229);
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: 2.1rem;
+}
+#Footer .container #Footer-main #Footer-sCard p
+{
+    font-size: 1.2rem;
+    color: rgba(45, 186, 233, 0.21);
+}
+#Footer .container #Footer-main #Footer-sCard h3
+{
+    margin-top: 10px;
+    color: rgba(45, 186, 233, 0.21);
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#Footer .container #Footer-main #Footer-sCard ul li , a
+{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: rgba(45, 186, 233, 0.499);
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub 
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub input
+{
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 7px 0px;
+    background: transparent;
+    border-bottom: 2px solid rgba(45, 186, 233, 0.21);
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button
+{
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 7px 7px rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: rgba(45, 186, 233, 0.4);
+    background-color: transparent;
+    font-size: 0.6rem;
+}
+#Footer .container #Footer-main #Footer-sCard #Footer-sCard-sub button:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 7px 7px rgba(45, 186, 233, 0.3);
+    background-color: rgba(45, 186, 233, 0.4);
+    transition: 0.7s;
+    color: white;
+    transform: scale(0.97);
+}
+#Footer  #Footer-copy
+{
+    padding: 40px 0px;
+    padding-left: 50px;
+    border-top: 2px solid rgba(45, 186, 233, 0.3);
+    width: 100%;
+}
+#Footer  #Footer-copy h3
+{
+    color: rgb(29, 179, 229);
+}

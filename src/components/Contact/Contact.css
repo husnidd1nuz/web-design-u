@@ -1,0 +1,161 @@
+#Contact 
+{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+#Contact #Contact-bg
+{
+    background: url("https://images.alphacoders.com/903/903155.jpg");
+    z-index: 0;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+#Contact #Contact-title
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;   
+    text-align: center;   
+    margin-top: -14%;
+}
+#Contact #Contact-title h1
+{
+    font-size: 3rem;
+    color: rgba(51, 171, 211, 0.843) ;
+}
+#Contact #Contact-title h3
+{
+    font-size: 1.4rem;
+    color: rgba(51, 171, 211, 0.843) ;
+    font-weight: 400;    
+}
+#Contact #Contact-title h3 span
+{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: rgba(45, 186, 233, 0.4);    
+}
+#Contact #Contact-main
+{
+    background-color: #18222D;
+}
+#Contact #Contact-main .container
+{
+    padding: 100px 0px 40px 0px;
+    width: 95%;
+    margin: 0 auto;
+}
+#Contact #Contact-main .container #Contact-main-top
+{
+    width: 100%;
+    text-align: center;
+}
+#Contact #Contact-main .container #Contact-main-top h1
+{
+    font-size: 1.8rem;
+    color: rgba(45, 186, 233, 0.891);
+    line-height: 50px;
+    font-weight: 600;
+}
+#Contact #Contact-main .container #Contact-main-top p
+{
+    color: rgba(45, 186, 233, 0.4);
+}
+#Contact #Contact-main .container #Contact-main-card
+{
+    margin: 20px auto;
+    padding-top: 40px;
+    width: 80%;
+    display: flex;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard
+{
+    width: 35%;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard
+{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sLCard i
+{
+    color: rgba(45, 186, 233, 0.623);
+    font-size: 1.4rem;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sLCard i:hover
+{
+    cursor: pointer;
+    transition: 0.7s;
+    color: rgba(45, 186, 233, 0.891);
+} 
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard
+{
+    width: 300px;
+    text-align: start;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard h3
+{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: rgba(45, 186, 233, 0.623);
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard p
+{
+    color: rgba(45, 186, 233, 0.4);
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard
+{
+    margin: 0 auto;
+    width: 55%;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard #Contact-main-rSCard
+{
+    width: 95%;
+    margin: 20px auto;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard #Contact-main-rSCard input
+{
+    border-radius: 50px;
+    border: 2px solid rgba(51, 171, 211, 0.843);
+    height: 50px;
+    color: rgba(45, 186, 233, 0.891);
+    background: transparent;
+    padding: 10px 0px 10px 30px;
+    width: 95%;
+}
+
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard #Contact-main-rSCard h3
+{
+    font-weight: 400;
+    margin: 10px;
+    color: rgba(45, 186, 233, 0.623);
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard button
+{
+    margin: 30px;
+    background-color: rgba(45, 186, 233, 0.3);
+    border: 2px solid rgba(45, 186, 233, 0.4);
+    color: white; 
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    letter-spacing: 2px;
+    width: 222px;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 74px;  
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-rCard  button:hover
+{
+    cursor: pointer;
+    color: rgba(45, 186, 233, 0.843);
+    transform: scale(0.93);
+    background-color:transparent
+    ;
+    box-shadow: 0px 0px 7px 7px rgba(45, 186, 233, 0.3);
+    transition: 0.7s ;
+}

@@ -1,0 +1,102 @@
+@media screen and (min-width: 320px) and (max-width:767px){
+    #Checkout
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main
+    {
+        width: 95%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox
+    {
+        width: 50%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox
+    {
+        width:45%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h3
+    {
+        font-size: 1.1rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h4
+    {
+        font-size: 0.7  rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h5
+    {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+    #Checkout
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main
+    {
+        width: 95%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox
+    {
+        width: 50%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox
+    {
+        width:45%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h3
+    {
+        font-size: 1.2rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h4
+    {
+        font-size: 0.9rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h5
+    {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1670px){
+    #Checkout
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main
+    {
+        width: 95%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox
+    {
+        width: 50%;
+    }
+    #Checkout #Checkout-main #Checkout-main-lBox #Checkout-main-lBox-miniBox
+    {
+        width: 100%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox
+    {
+        width:45%;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h3
+    {
+        font-size: 1.2rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h4
+    {
+        font-size: 0.9rem;
+    }
+    #Checkout #Checkout-main #Checkout-main-rBox #Checkout-main-rBox-miniBox h5
+    {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,99 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #Blog
+    {
+        width: 100%;
+    }
+    #Blog #Blog-title 
+    {
+        margin-top: -270px;
+
+    }
+    #Blog #Blog-main
+    {
+        width: 100%;
+    }
+    #Blog #Blog-main-lCard
+    {
+        width: 50%;
+    }
+    #Blog #Blog-main-rCard
+    {
+        width: 50%;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard    
+    {
+        width: 100%;
+        height: 80px;
+        gap: 10px;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard img
+    {
+        width: 80px;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox h3
+    {
+        font-size: 0.6rem;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox p
+    {
+        font-size: 0.5rem;
+    }
+    #Blog #Blog-footer
+    {
+        width: 100%;
+    }
+    #Blog #Blog-footer #Blog-footer-sCard
+    {
+        width: 80%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #Blog
+    {
+        width: 100%;
+    }
+    #Blog #Blog-title 
+    {
+        margin-top: -270px;
+    }
+    #Blog #Blog-main
+    {
+        width: 100%;
+    }
+    #Blog #Blog-main-lCard
+    {
+        width: 50%;
+    }
+    #Blog #Blog-main-rCard
+    {
+        width: 50%;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard    
+    {
+        width: 100%;
+        height: 80px;
+        gap: 10px;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard img
+    {
+        width: 100px;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox h3
+    {
+        font-size: 0.8rem;
+    }
+    #Blog #Blog-main #Blog-main-rCard #Blog-main-rCard-bottom #Blog-main-rCard-sCard #Blog-main-rCard-sCard-miniBox p
+    {
+        font-size: 0.6rem;
+    }
+    #Blog #Blog-footer
+    {
+        width: 100%;
+    }
+    #Blog #Blog-footer #Blog-footer-sCard
+    {
+        width: 60%;
+    }
+
+}

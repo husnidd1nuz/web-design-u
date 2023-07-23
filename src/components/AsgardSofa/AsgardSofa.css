@@ -1,0 +1,410 @@
+#AsgardSofa
+{
+    width: 100%;
+    padding: 40px 0px;
+    display: none;
+}
+#AsgardSofa #AsgardSofa-header
+{
+    width: 95%;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+#AsgardSofa #AsgardSofa-header #AsgardSofa-header-lBox
+{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid white;
+}
+#AsgardSofa #AsgardSofa-header #AsgardSofa-header-lBox h3
+{
+    font-weight: 400;
+    color: rgba(45, 186, 233, 0.4);
+}
+#AsgardSofa #AsgardSofa-header #AsgardSofa-header-lBox h3 span
+{
+    margin-left: 5px;
+    color: black;
+}
+#AsgardSofa #AsgardSofa-header #AsgardSofa-header-rBox
+{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#AsgardSofa #AsgardSofa-header #AsgardSofa-header-rBox h3
+{
+    font-weight: 400;
+    color: rgba(51, 171, 211, 0.843);
+}  
+#AsgardSofa #AsgardSofa-top 
+{
+    width: 100%;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main
+{
+    width: 50%;
+    margin-left: 20%;
+}
+#AsgardSofa #AsgardSofa-top  ul {
+    height: 60vh;
+    width: 20vh;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr 2fr 1fr);
+  }
+  
+#AsgardSofa #AsgardSofa-top  li {
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / span 1;
+  
+    --offsetX: 50%;
+  }
+  
+  #AsgardSofa #AsgardSofa-top   a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #AsgardSofa #AsgardSofa-top   img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li:first-of-type {
+    grid-row: 1 / span 4;
+    clip-path: polygon(
+      100% calc(20% * -1),
+      0 calc(20%),
+      0 100%,
+      100% calc(20% * 3)
+    );
+  }
+  
+  #AsgardSofa #AsgardSofa-top   li:nth-of-type(2) {
+    grid-row: 3 / span 5;
+    clip-path: polygon(100% 0, 0 calc(16.6% * 2), 0 100%, 100% calc(16.6% * 4));
+  }
+  
+  #AsgardSofa #AsgardSofa-top   li:nth-of-type(3) {
+    grid-row: 6 / span 5;
+    clip-path: polygon(100% 0, 0 calc(16.6% * 2), 0 100%, 100% calc(16.6% * 4));
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li:last-of-type {
+    grid-row: -5 / span 4;
+    clip-path: polygon(
+      100% 0,
+      0 calc(20% * 2),
+      0 calc(20% * 6),
+      100% calc(20% * 4)
+    );
+  }
+  
+  @keyframes o {
+    from {
+      transform: translate(0);
+    }
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li:nth-of-type(odd) a {
+    transform: translate(var(--offsetX), calc(var(--offsetX) * 0.166 * -2));
+    animation: o 2s;
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li:nth-of-type(even) a {
+    transform: translate(
+      calc(var(--offsetX) * -1),
+      calc(var(--offsetX) * 0.166 * 2)
+    );
+    animation: o 2s;
+  }
+  
+  
+  #AsgardSofa #AsgardSofa-top  li:first-of-type a {
+    transform: translate(var(--offsetX), calc(var(--offsetX) * 0.2 * -2));
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li:last-of-type a {
+    transform: translate(
+      calc(var(--offsetX) * -1),
+      calc(var(--offsetX) * 0.2 * 2)
+    );
+  }
+  
+  #AsgardSofa #AsgardSofa-top  img {
+    animation: blr 2s;
+    filter: blur(10px);
+  }
+  @keyframes blr {
+    from {
+      filter: blur(0);
+    }
+  }
+  
+  #AsgardSofa #AsgardSofa-top  li {
+    transition: opacity 0.3s;
+  }
+  #AsgardSofa #AsgardSofa-top   li a {
+    transition: all 0.15s;
+  }
+  #AsgardSofa #AsgardSofa-top  li:hover a {
+    transition: transform 0.3s;
+    transform: translate(0);
+  }
+  
+  #AsgardSofa #AsgardSofa-top  ul:hover li {
+    opacity: 0.1;
+  }
+  #AsgardSofa #AsgardSofa-top  ul:hover li:hover {
+    opacity: 1;
+    transition: clip-path 0.4s 0.3s;
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    z-index: 10;
+  }
+  
+  #AsgardSofa #AsgardSofa-top  img {
+    filter: blur(10px);
+    transition: filter 0.7s;
+  }
+  #AsgardSofa #AsgardSofa-top   li:hover img {
+    filter: blur(0);
+  }
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main  
+{
+  display: flex;
+  align-items: center;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title
+{
+  margin-left: 120px;
+  width: 65%;
+} 
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title h1
+{
+  font-weight: 400;
+  color: rgba(51, 171, 211, 0.843);
+} 
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title h3
+{
+  margin: 10px 0px;
+  font-weight: 400;
+  color: rgba(45, 186, 233, 0.226);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-title-price
+{
+  width: 350px;
+  margin: 10px 0px;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-title-price button
+{
+  color: rgba(51, 171, 211, 0.843);
+  height: 40px;
+  border: none;
+  border-left: 2px solid rgba(45, 186, 233, 0.226);
+  padding: 5px 20px;
+  background-color: rgba(45, 186, 233, 0.226);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title p
+{
+  margin: 10px 0px;
+  color: rgba(45, 186, 233, 0.514);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title span
+{
+  font-size: 1.1rem;
+  color: rgba(51, 171, 211, 0.843);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-btn 
+{
+  width: 130px;
+  justify-content: space-between;
+  display: flex;
+  margin: 5px 0px;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-btn button
+{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid rgba(45, 186, 233, 0.4);
+  color: rgba(45, 186, 233, 0.843);
+  transform: scale(0.93);
+  background-color:transparent
+  ;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-btn button:hover
+{
+  transition: 0.7s;
+  background-color: rgba(45, 186, 233, 0.3);
+  border: 2px solid rgba(45, 186, 233, 0.4);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-btn button:focus
+{
+  background-color: rgba(45, 186, 233, 0.3);
+  border: 2px solid rgba(45, 186, 233, 0.4); 
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-colors
+{
+  margin: 5px 0px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-colors button
+{
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px; 
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-colors button:nth-child(1)
+{
+  background: #816DFA;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-colors button:nth-child(2)
+{
+  background: #000000;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-size-colors button:nth-child(3)
+{
+  background: #B88E2F;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc
+{
+  width: 600px;
+  margin: 15px 0px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc #AsgardSofa-top-Ins-lBox 
+{
+  width: 30%;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #1D4458;
+  display: flex;
+  color: white;
+  align-items: center;
+  background-color: rgba(45, 186, 233, 0.226);
+  justify-content: space-between;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc #AsgardSofa-top-Ins-lBox p
+{
+  color: white;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc #AsgardSofa-top-Ins-lBox button
+{
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  width: 60px;
+  height: 100%;
+  color: white;
+  font-size: 1.6rem;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc > button
+{
+  width: 180px;
+  height: 60px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: rgba(45, 186, 233, 0.3);
+  border: 2px solid rgba(45, 186, 233, 0.4);
+  color: rgba(45, 186, 233, 0.843);
+  transform: scale(0.93);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc > button:hover
+{
+  transition: 0.7s;
+  background: transparent;
+  border: 2px solid rgba(45, 186, 233, 0.4);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc > button:focus
+{
+  background: transparent;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title hr
+{
+  margin: 20px 0px;
+  border: 1px solid rgba(45, 186, 233, 0.226);
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer
+{
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer #AsgardSofa-footer-lBox
+{
+  width: 40%;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer #AsgardSofa-footer-lBox li
+{
+  font-size: 0.9rem;
+  color: rgba(45, 186, 233, 0.843);
+  list-style: none;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer #AsgardSofa-footer-rBox
+{
+  width: 50%;
+}
+#AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer #AsgardSofa-footer-rBox li
+{
+  font-size: 0.9rem;
+  display: flex;
+  color: rgba(45, 186, 233, 0.843);
+  list-style: none;
+}
+#AsgardSofa-main
+{
+  padding: 40px 0px;
+  width: 100%;
+}
+#AsgardSofa-main #AsgardSofa-main-top
+{
+  margin: 0 auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#AsgardSofa-main #AsgardSofa-main-top h3
+{
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: rgba(45, 186, 233, 0.843);
+}
+#AsgardSofa-main #AsgardSofa-main-top h5
+{
+  font-weight: 400;
+  color: rgba(45, 186, 233, 0.3);
+}
+#AsgardSofa-main p
+{
+  margin-top: 20px;
+  text-align: center;
+  color: rgba(45, 186, 233, 0.4);
+}
+#AsgardSofa-main #AsgardSofa-main-bottom
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: 20px auto;
+}
+#AsgardSofa-main #AsgardSofa-main-bottom img
+{
+  width: 49%;
+}

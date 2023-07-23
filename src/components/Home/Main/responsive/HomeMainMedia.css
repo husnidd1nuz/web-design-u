@@ -1,0 +1,79 @@
+@media screen and (min-width:320px) and (max-width:767px) 
+{
+    #Home-Main
+    {
+
+    }
+    #Home-Main #Home-Main-top
+    {
+        padding: 0px;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin-top: 40px;
+        margin: 40px auto;
+        padding: 0;
+        width: 50%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) 
+{
+    #Home-Main
+    {
+
+    }
+    #Home-Main #Home-Main-top
+    {
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        width: 80%;
+        display: block;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        margin: 50px auto;
+        padding: 0px 0px 20px 0px;
+        width: 50%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1660px) 
+{
+    #Home-Main
+    {
+
+    }
+    #Home-Main #Home-Main-top
+    {
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card
+    {
+        text-align: center;
+        width: 80%;
+        display: flex;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox
+    {
+        width: 40%;
+    }
+    #Home-Main #Home-Main-top #Home-Main-top-card #Home-Main-top-sBox img
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,101 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    #About
+    {
+
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+        display: block;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        width: 400px; 
+        margin: 30px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        font-size: 3rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    #About #About-Main #About-Main-sCard #About-Main-sRCard
+    {
+        width: 60%;
+        left: 0px;
+        text-align: start;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #About
+    {
+
+    }
+    #About #About-Main
+    {   
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        width: 300px; 
+        margin: 30px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        font-size: 3rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    #About #About-Main #About-Main-sCard #About-Main-sRCard
+    {
+        width: 60%;
+        left: 0px;
+        text-align: start;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1660px) {
+    #About
+    {
+
+    }
+    #About #About-Main
+    {   
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #About #About-Main #About-Main-sCard
+    {
+        width: 250px; 
+        margin: 30px auto;
+        justify-content: none;
+    }
+    #About #About-Main #About-Main-sCard i
+    {
+        font-size: 3rem;
+    }
+    #About #About-Main #About-Main-sCard h3
+    {
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    #About #About-Main #About-Main-sCard  p
+    #About #About-Main #About-Main-sCard #About-Main-sRCard
+    {
+        width: 60%;
+        left: 0px;
+        text-align: start;
+    }
+}

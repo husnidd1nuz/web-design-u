@@ -1,0 +1,80 @@
+@media screen and (min-width: 320px) and (max-width:767px){
+    #AsgardSofa
+    {
+        overflow: hidden;
+        width: 100%;
+    }
+    #AsgardSofa ul
+    {
+        width: 400px;
+    }
+    #AsgardSofa #AsgardSofa-top ul
+    {
+        display: none;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title
+    {
+        margin-left: 0px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-title-price button
+    {
+        padding: 5px 20px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc
+    {
+        justify-content: space-around;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc > button
+    {
+        width: 150px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer
+    {
+        width: 100%;
+        display: none;
+    }
+    #AsgardSofa-main #AsgardSofa-main-top
+    {
+        width: 95%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+    #AsgardSofa
+    {
+        overflow: hidden;
+        width: 100%;
+    }
+    #AsgardSofa ul
+    {
+        width: 400px;
+    }
+    #AsgardSofa #AsgardSofa-top ul
+    {
+        display: none;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title
+    {
+        margin-left: 0px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-title-price button
+    {
+        padding: 5px 20px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc
+    {
+        justify-content: space-around;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-Inc > button
+    {
+        width: 150px;
+    }
+    #AsgardSofa #AsgardSofa-top #AsgardSofa-top-main #AsgardSofa-top-main-title #AsgardSofa-top-footer
+    {
+        width: 100%;
+        display: none;
+    }
+    #AsgardSofa-main #AsgardSofa-main-top
+    {
+        width: 95%;
+    }
+}
